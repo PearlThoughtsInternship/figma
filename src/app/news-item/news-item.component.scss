@@ -1,13 +1,15 @@
-.divider {
-  margin: 0;
-  border: 2px solid #000;
-  opacity: 1;
-}
 .image-container {
   background-color: #c4c4c4;
-  min-height: 380px;
+  min-height: 90px;
+
   .tag {
     background-color: #d83049;
     color: #fff;
+    font-size: 12px;
   }
+}
+
+.title {
+  background-color: #dde0e2;
+  line-height: 18px;
 }
