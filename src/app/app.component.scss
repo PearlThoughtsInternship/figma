@@ -1,198 +1,56 @@
-img {
-  width: 100%;
-}
-.tag {
-  background: #eb0444;
-  font-family: "Ballinger Condensed Regular";
-  color: #fff;
+.trending {
+  background-color: lightblue;
+  color: grey;
+  font-family: "Roboto";
   font-weight: bold;
-  font-size: 17.1429px;
-  box-sizing: border-box;
-}
-.over-layer {
-  font-family: "Roboto", sans-serif;
-  background: rgba(232, 238, 242, 0.67);
-  font-size: 36px;
-}
-.main-image {
-  .tag {
-    width: 139px;
-    padding: 3px 6px;
-  }
-}
-.small-image {
-  .tag {
-    font-size: 12px;
-    width: 102px !important;
-    padding: 1px 6px !important;
-  }
-  .over-layer {
-    font-size: 12px;
-  }
-  img {
-    width: 229px;
-    height: 143px;
-  }
-}
-.small-title {
-  color: red;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 10px;
-  text-transform: uppercase;
-  display: block;
-}
-.brand-list {
-  color: dark-gray;
-  font-family: Roboto;
-  font-weight: normal;
-  height: calc(100% - 27px);
-  a {
-    color: dark-gray;
-  }
-  li {
-    border-bottom: 1px solid lightgray;
-    &:last-child {
-      border: 0;
-    }
-    img {
-      width: 100%;
-    }
-  }
-  h3 {
-    font-size: 18px;
-    font-weight: bold;
-  }
+  font-size: 16px;
+  border-bottom: 1px solid darkgray;
   span {
-    font-size: 10px;
-    display: block;
-  }
-  p {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 116.09%;
-    color: #595959;
-  }
-}
-.news-list {
-  font-family: Roboto;
-  height: calc(100% - 27px);
-  width: calc(100% - 30px);
-  a {
     color: red;
-  }
-  li {
-    display: flex;
-    border-bottom: 1px solid #e8eef2;
-    &:last-child {
-      border: 0;
-    }
+    font-family: "Ballinger Condensed Medium";
     img {
-      min-width: 100px;
-    }
-    h3 {
-      font-weight: bold;
-      font-size: 17.5px;
-      color: red;
-    }
-    span {
-      font-size: 10px;
-      color: darkgray;
+      width: auto;
+      margin-top: -4px;
     }
   }
 }
-.feature-article-section {
-  .feature-item {
-    padding-bottom: 20px;
-    position: relative;
-    .image-tag {
-      position: absolute;
-      background-color: red;
-      color: white;
-      font-family: "ProximaNova-Semibold";
-      font-size: 12.27px;
-      padding: 4px;
+
+:host ::ng-deep .owl-carousel {
+  .owl-stage-outer {
+    overflow: hidden;
+    .owl-stage {
+      display: flex;
+      .slideItem {
+        padding: 0 20px;
+        box-sizing: border-box;
+      }
     }
-    .image-area {
-      background-color: lightgray;
-      height: 126px;
-    }
-    .image-description {
-      padding: 5px;
-      background-color: white;
-      color: darkgray;
-      font-family: "Roboto";
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 16px;
+  }
+  .owl-nav {
+    > div {
+      // position: absolute;
+      top: 50%;
+      transform: rotate(-90deg);
+      background-repeat: no-repeat;
+      background-size: 22px;
+      height: 43px;
+      width: 25px;
+      cursor: pointer;
+      &.owl-prev {
+        right: 0px;
+        top: 10px;
+        background: #e8eef2;
+      }
+      &.owl-next {
+        right: 0px;
+        top: -10px;
+        background: #e8eef2;
+      }
     }
   }
 }
-.empty {
-  padding-top: 100px;
-}
+
 .slideItem {
   font-weight: bold;
   margin-bottom: 47px;
-}
-.video-btn {
-  cursor: pointer;
-  position: relative;
-  .vide-play {
-    position: absolute;
-    left: calc(50% - 45px);
-    top: calc(50% - 45px);
-    z-index: 1000;
-    height: 90px;
-    width: 90px;
-  }
-}
-.modal-body {
-  padding: 0rem !important;
-}
-.btn-close {
-  position: absolute;
-  right: -30px;
-  top: 0;
-  z-index: 999;
-  font-size: 1rem;
-  font-weight: 400;
-  opacity: 1;
-}
-@media screen and (max-width: 760px) {
-  .tag {
-    font-size: 12px;
-  }
-  .over-layer {
-    font-size: 24px;
-  }
-  .small-image {
-    .over-layer {
-      text-overflow: ellipsis;
-      overflow: hidden;
-      white-space: nowrap;
-    }
-  }
-}
-@media screen and (max-width: 960px) {
-  .brand-list {
-    position: relative;
-    height: 100%;
-    overflow: visible;
-    width: 100%;
-  }
-  .news-list {
-    position: relative;
-    height: 100%;
-    overflow: visible;
-    width: 100%;
-  }
-}
-@media screen and (min-width: 992px) {
-  .latestListing {
-    max-width: 318px;
-    p {
-      line-height: 114.99%;
-    }
-  }
 }
