@@ -44,9 +44,9 @@ export class AppComponent {
   brandNews = [
     {
       title:
-        'Lessons From Franchise Executives: Jackie Bondanza of Hounds Town USA',
+        'WBFF-TV FOX Baltimore: Detail Garage Franchisees Share Tips To Ensure Your Car Is Ready for Road Trips',
       description:
-        'Lessons From Franchise Executives: Jackie Bondanza of Hounds Town USA',
+        'The global bakery café franchise names CBRE as the exclusive agent for U.S. and Canada expansion program.',
       author: 'Luca Piacentini',
       media: 'https://img.youtube.com/vi/i-e7w3uZk-4/maxresdefault.jpg',
     },
@@ -54,13 +54,13 @@ export class AppComponent {
       title:
         'Lessons From Franchise Executives: Jackie Bondanza of Hounds Town USA',
       description:
-        'Lessons From Franchise Executives: Jackie Bondanza of Hounds Town USA',
+        'Harof shares valuable insight into how business owners can succeed when franchising their company.',
       author: 'Luca Piacentini',
       media: 'https://img.youtube.com/vi/i-e7w3uZk-4/maxresdefault.jpg',
     },
     {
       title:
-        'Lessons From Franchise Executives: Jackie Bondanza of Hounds Town USA',
+        'Authority Magazine: Chris DeJong Shares 5 Things He Wishes Someone Told Him Before He Became a Founder',
       description:
         'Lessons From Franchise Executives: Jackie Bondanza of Hounds Town USA',
       author: 'Luca Piacentini',
@@ -68,7 +68,7 @@ export class AppComponent {
     },
     {
       title:
-        'Lessons From Franchise Executives: Jackie Bondanza of Hounds Town USA',
+        'The Virginian-Pilot: Pool Scouts Featured for Partnership With Hope Floats',
       description:
         'Lessons From Franchise Executives: Jackie Bondanza of Hounds Town USA',
       author: 'Luca Piacentini',
